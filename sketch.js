@@ -25,11 +25,11 @@ function setup() {
 	roof = new Roof(400, 200, 500, 40);
 
 	//creating the bobs
-	bob1 = new Bob(220, 650, 40);
-	bob2 = new Bob(300, 650, 40);
-	bob3 = new Bob(380, 650, 40);
-	bob4 = new Bob(460, 650 ,40);
-	bob5 = new Bob(540, 650, 40);
+	bob1 = new Bob(220, 600, 40);
+	bob2 = new Bob(300, 600, 40);
+	bob3 = new Bob(380, 600, 40);
+	bob4 = new Bob(460, 600 ,40);
+	bob5 = new Bob(540, 600, 40);
 
 	//creating the wires for the bobs to be suspended
 	chain1 = new Chain(bob1.body, roof.body, -bob1.radius*4.4, 0);
